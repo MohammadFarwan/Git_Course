@@ -1,0 +1,29 @@
+.about-us-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-div {
+  flex: 1;
+}
+
+.image-div img {
+  max-width: 100%;
+}
+
+.text-div {
+  flex: 1;
+  padding: 0 20px;
+  border: 1px solid red;
+  margin: 150px;
+}
+
+.text-div h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.text-div p {
+  font-size: 18px;
+  line-height: 1.5;
+}
